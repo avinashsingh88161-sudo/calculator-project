@@ -16,7 +16,6 @@ This project supports both basic and advanced mathematical operations with a cle
   - square root (√)
   - π (Pi value)
 - ✅ Responsive Design (Mobile + Desktop)
-- ✅ Dark / Light Mode Toggle 🌙☀️
 - ✅ Error Handling (invalid input, negative roots, etc.)
 - ✅ Clean and modern UI
 
