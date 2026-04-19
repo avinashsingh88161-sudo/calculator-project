@@ -1,57 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Scientific Calculator</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <input type="text" id="inputbox" placeholder="0" />
 
-<div class="container">
-  <input type="text" id="inputbox" placeholder="0">
+      <div class="buttons">
+        <!-- Controls -->
+        <button class="operator">AC</button>
+        <button class="operator">DEL</button>
+        <button class="operator">%</button>
+        <button class="operator">/</button>
 
-  <div class="buttons">
-    <!-- Scientific -->
-    <button>sin</button>
-    <button>cos</button>
-    <button>tan</button>
-    <button>√</button>
+        <!-- Scientific -->
+        <button>sin</button>
+        <button>cos</button>
+        <button>tan</button>
+        <button>√</button>
 
-    <button>log</button>
-    <button>x²</button>
-    <button>xʸ</button>
-    <button>π</button>
+        <button>log</button>
+        <button>x²</button>
+        <button>xʸ</button>
+        <button>π</button>
 
-    <!-- Controls -->
-    <button class="operator">AC</button>
-    <button class="operator">DEL</button>
-    <button class="operator">%</button>
-    <button class="operator">/</button>
+        <!-- Numbers -->
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button class="operator">*</button>
 
-    <!-- Numbers -->
-    <button>7</button>
-    <button>8</button>
-    <button>9</button>
-    <button class="operator">*</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button class="operator">-</button>
 
-    <button>4</button>
-    <button>5</button>
-    <button>6</button>
-    <button class="operator">-</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button class="operator">+</button>
 
-    <button>1</button>
-    <button>2</button>
-    <button>3</button>
-    <button class="operator">+</button>
+        <button>00</button>
+        <button>0</button>
+        <button>.</button>
+        <button class="equal">=</button>
+      </div>
+    </div>
 
-    <button>00</button>
-    <button>0</button>
-    <button>.</button>
-    <button class="equal">=</button>
-  </div>
-</div>
-
-<script src="app.js"></script>
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>
